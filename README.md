@@ -9,7 +9,7 @@ The terminal with changes shows
 username / foldername / branch name / indicator on magenta with changes label and x mark
 ![alt text](./images/changes.png)
 
-display git status:
+display git status:             
 ![alt text](./images/gstlist-c.png)
 
 staged file and display git status:
