@@ -3,9 +3,9 @@ Beautty Theme for ZSH - OH MY ZSH - ITEMR
 
 ### Installation:
 
-`cd $ZSH_CUSTOM/themes`
-`git clone https://github.com/faycito/elsa.git`
-`ln -s ./elsa/elsa.zsh-theme ./elsa.zsh-theme`
+`cd $ZSH_CUSTOM/themes`.
+`git clone https://github.com/faycito/elsa.git`.
+`ln -s ./elsa/elsa.zsh-theme ./elsa.zsh-theme`.
 
 Then set on .zshrc file
 `ZSH_THEME="elsa"`
