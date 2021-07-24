@@ -1,10 +1,10 @@
+# by faycito (https://github.com/faycito)
 PROMPT=' ${return_status} %{$fg[blue]%}$(get_pwd)%{$reset_color%} $(git_prompt_info)${prompt_suffix}'
 
 local return_status="%(?:%{$fg[yellow]%}↯ %{$fg_bold[green]%}$USER:%{$fg_bold[red]%}!)"
 
 local prompt_suffix="%{$fg[magenta]%}➜ %{$reset_color%}"
 
-# by faycito (https://github.com/faycito)
 function get_pwd(){
   git_root=$PWD
   while [[ $git_root != / && ! -e $git_root/.git ]]; do
