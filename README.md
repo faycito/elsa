@@ -1,11 +1,11 @@
-# elsa -- Oh My ZSH theme
+# Elsa -- Oh My ZSH theme
 Beautty Theme for ZSH - OH MY ZSH - ITEMR
 
 ### Installation:
 
-`cd $ZSH_CUSTOM/themes`
-`git clone https://github.com/faycito/elsa.git`
-`ln -s ./elsa/elsa.zsh-theme ./elsa.zsh-theme`
+`cd $ZSH_CUSTOM/themes`    
+`git clone https://github.com/faycito/elsa.git`   
+`ln -s ./elsa/elsa.zsh-theme ./elsa.zsh-theme`  
 
 Then set on .zshrc file
 `ZSH_THEME="elsa"`
